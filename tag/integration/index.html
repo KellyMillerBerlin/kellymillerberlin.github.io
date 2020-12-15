@@ -1,308 +1,470 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-US">
 <head>
-<meta charset="UTF-8">
-<title>integration | Collidoscope Berlin</title>
-<!--[if lt IE 9]>
-<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-<![endif]-->
-<meta name="viewport" content="width=device-width; initial-scale=1.0">
-<link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="pingback" href="http://collidoscopeberlin.local/xmlrpc.php" />
-<link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 57x57 64x64 72x72 96x96 120x120 128x128 144x144 152x152 195x195 228x228" href="http://collidoscopeberlin.com/favicon.ico">
-<link rel='dns-prefetch' href='http://fonts.googleapis.com' />
-<link rel='dns-prefetch' href='http://s.w.org' />
-<link rel="alternate" type="application/rss+xml" title="Collidoscope Berlin &raquo; Feed" href="../../feed/index.rss" />
-<link rel="alternate" type="application/rss+xml" title="Collidoscope Berlin &raquo; Comments Feed" href="../../comments/feed/index.rss" />
-<link rel="alternate" type="application/rss+xml" title="Collidoscope Berlin &raquo; integration Tag Feed" href="feed/index.rss" />
-		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/collidoscopeberlin.local\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.6"}};
-			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script>
-		<style type="text/css">img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
-	<link rel='stylesheet' id='wp-block-library-css'  href='../../wp-includes/css/dist/block-library/style.min%EF%B9%96ver=5.6.css' type='text/css' media='all' />
-<link rel='stylesheet' id='mh-google-fonts-css'  href='http://fonts.googleapis.com/css?family=Lato:300italic,300,400italic,400,900%7CVollkorn:400,400italic' type='text/css' media='all' />
-<link rel='stylesheet' id='mh-font-awesome-css'  href='../../wp-content/themes/mh-purity-lite/includes/font-awesome.min.css' type='text/css' media='all' />
-<link rel='stylesheet' id='mh-style-css'  href='../../wp-content/themes/mh-purity-lite-child/style%EF%B9%96ver=v1.0.7.css' type='text/css' media='all' />
-<script type='text/javascript' src='../../wp-includes/js/jquery/jquery.min%EF%B9%96ver=3.5.1.js' id='jquery-core-js'></script>
-<script type='text/javascript' src='../../wp-includes/js/jquery/jquery-migrate.min%EF%B9%96ver=3.3.2.js' id='jquery-migrate-js'></script>
-<script type='text/javascript' src='../../wp-content/themes/mh-purity-lite/js/scripts%EF%B9%96ver=5.6.js' id='scripts-js'></script>
-<link rel="https://api.w.org/" href="../../wp-json/index.json" /><link rel="alternate" type="application/json" href="../../wp-json/wp/v2/tags/365.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../xmlrpc.php%EF%B9%96rsd.xml" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress 5.6" />
+    <meta charset="UTF-8">
+    <title>integration | Collidoscope Berlin</title>
+    <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel="profile" href="http://gmpg.org/xfn/11"/>
+    <link rel="pingback" href="http://collidoscopeberlin.local/xmlrpc.php"/>
+    <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 57x57 64x64 72x72 96x96 120x120 128x128 144x144 152x152 195x195 228x228" href="http://collidoscopeberlin.com/favicon.ico">
+    <link rel='dns-prefetch' href='http://fonts.googleapis.com'/>
+    <link rel='dns-prefetch' href='http://s.w.org'/>
+    <link rel='stylesheet' id='wp-block-library-css' href='../../assets/styles/block-style.min.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='mh-google-fonts-css' href='http://fonts.googleapis.com/css?family=Lato:300italic,300,400italic,400,900%7CVollkorn:400,400italic' type='text/css' media='all'/>
+    <link rel='stylesheet' id='mh-font-awesome-css' href='../../assets/styles/font-awesome.min.css' type='text/css' media='all'/>
+    <link rel='stylesheet' id='mh-style-css' href='../../assets/styles/style.css' type='text/css' media='all'/>
+    <script type='text/javascript' src='../../assets/scripts/jquery.min.js' id='jquery-core-js'></script>
+    <script type='text/javascript' src='../../assets/scripts/jquery-migrate.min.js' id='jquery-migrate-js'></script>
+    <script type='text/javascript' src='../../assets/scripts/theme-scripts.js' id='scripts-js'></script>
 </head>
 <body class="archive tag tag-integration tag-365">
 <div class="container">
-<header class="header-wrap">
-  <a href="../../index.html" title="Collidoscope Berlin" rel="home">
-<div class="logo-wrap" role="banner">
-<img class="header-image" src="../../wp-content/uploads/2014/09/cropped-cropped-Collidoscope_Logo_RZ_RGB112-e1413112267396.png" height="175" width="781" alt="Collidoscope Berlin" />
-</div>
-</a>
-  <nav class="main-nav clearfix">
-    <div class="menu-primary-menu-container"><ul id="menu-primary-menu" class="menu"><li id="menu-item-3200" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3200"><a href="../../index.html">Home</a></li>
-<li id="menu-item-3106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3106"><a href="../../about/index.html">About</a>
-<ul class="sub-menu">
-	<li id="menu-item-3107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3107"><a href="../../about/a-manifesto/index.html">Manifesto</a></li>
-</ul>
-</li>
-<li id="menu-item-3109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3109"><a href="../../tips-and-resources/index.html">Tips &#038; Resources</a>
-<ul class="sub-menu">
-	<li id="menu-item-3110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3110"><a href="../../tips-and-resources/goodreads/index.html">What We&#8217;re Reading</a></li>
-</ul>
-</li>
-<li id="menu-item-3111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3111"><a href="../../as-seen-on/index.html">As Seen On</a></li>
-<li id="menu-item-3112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3112"><a href="../../contact-us/index.html">Contact</a>
-<ul class="sub-menu">
-	<li id="menu-item-3108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3108"><a href="../../contact-us/imprint/index.html">Imprint</a></li>
-</ul>
-</li>
-</ul></div>  </nav>
-</header><div class="wrapper clearfix">
-	<section class="content left">
-		<header class="post-header">
-<h1 class="entry-title">integration</h1>
-</header>
-				<article class="post-4676 post type-post status-publish format-standard has-post-thumbnail hentry category-identity-and-belonging category-language category-policy-practice category-politics-and-media tag-asylum tag-bundestag tag-germany tag-inclusion tag-integration tag-language-learning">
-	<div class="loop-wrap clearfix">
-		<div class="loop-thumb">
-			<a href="../../2016/08/25/the-value-of-foreign-life/index.html">
-				<img width="310" height="174" src="../../wp-content/uploads/2016/08/fluechtlinge-integration-gesetz-fakten-streitpunkte-310x174.jpeg" class="attachment-featured size-featured wp-post-image" alt="" loading="lazy" srcset="../../wp-content/uploads/2016/08/fluechtlinge-integration-gesetz-fakten-streitpunkte-310x174.jpeg 310w, ../../wp-content/uploads/2016/08/fluechtlinge-integration-gesetz-fakten-streitpunkte-300x169.jpeg 300w, ../../wp-content/uploads/2016/08/fluechtlinge-integration-gesetz-fakten-streitpunkte.jpeg 768w, ../../wp-content/uploads/2016/08/fluechtlinge-integration-gesetz-fakten-streitpunkte-650x365.jpeg 650w" sizes="(max-width: 310px) 100vw, 310px" />			</a>
-		</div>
-		<header class="loop-data">
-							<div class="loop-meta">
-					<span class="loop-date"><a href="../../2016/08/25/the-value-of-foreign-life/index.html" rel="bookmark">August 25, 2016</a></span>
-					<span class="loop-comments"><i class="fa fa-comment-o"></i>0</span>
-				</div>
-						<h3 class="loop-title"><a href="../../2016/08/25/the-value-of-foreign-life/index.html" rel="bookmark">The Value of Foreign Life: when the law demands &#8220;integration&#8221;</a></h3>
-		</header>
-		<div class="mh-excerpt">Until now, immigration policy in Germany has followed a pathway defined by residency, employment, and <a href="../../2016/08/25/the-value-of-foreign-life/index.html" title="The Value of Foreign Life: when the law demands &#8220;integration&#8221;">[Read More!]</a></div>
-	</div>
-</article><article class="post-3183 post type-post status-publish format-standard has-post-thumbnail hentry category-identity-and-belonging category-local-stories category-politics-and-media category-arts-and-creativity tag-football tag-germany tag-guestworkers tag-home tag-integration tag-neukolln tag-turkey">
-	<div class="loop-wrap clearfix">
-		<div class="loop-thumb">
-			<a href="../../2014/09/02/interview-ali-for-and-from-germany/index.html">
-				<img width="310" height="174" src="../../wp-content/uploads/2014/09/ali-310x174.jpg" class="attachment-featured size-featured wp-post-image" alt="Ali für Deutschland" loading="lazy" />			</a>
-		</div>
-		<header class="loop-data">
-							<div class="loop-meta">
-					<span class="loop-date"><a href="../../2014/09/02/interview-ali-for-and-from-germany/index.html" rel="bookmark">September 2, 2014</a></span>
-					<span class="loop-comments"><i class="fa fa-comment-o"></i>0</span>
-				</div>
-						<h3 class="loop-title"><a href="../../2014/09/02/interview-ali-for-and-from-germany/index.html" rel="bookmark">Interview: Ali for (and from) Germany</a></h3>
-		</header>
-		<div class="mh-excerpt">In the wake of Germany's World Cup victory, much has been said about a renewed sense of German patriotism and its implications. While some have feared a connection to Germany's dark past, others have welcomed the discourse as a chance to shape a new sense of belonging within the country's evolving demographics. We've already written something about it here. But what a discussion on national identity means on the personal level is another story. Or rather many stories. Here's one... <a href="../../2014/09/02/interview-ali-for-and-from-germany/index.html" title="Interview: Ali for (and from) Germany">[Read More!]</a></div>
-	</div>
-</article><article class="post-2873 post type-post status-publish format-image has-post-thumbnail hentry category-history category-identity-and-belonging category-policy-practice category-politics-and-media tag-football tag-germany tag-inclusion tag-integration tag-nationalism tag-world-cup post_format-post-format-image">
-	<div class="loop-wrap clearfix">
-		<div class="loop-thumb">
-			<a href="../../2014/07/28/world-cup-fever-how-malleable-is-german-identity/index.html">
-				<img width="310" height="174" src="../../wp-content/uploads/2014/07/die-deutschland-party-310x174.jpg" class="attachment-featured size-featured wp-post-image" alt="" loading="lazy" />			</a>
-		</div>
-		<header class="loop-data">
-							<div class="loop-meta">
-					<span class="loop-date"><a href="../../2014/07/28/world-cup-fever-how-malleable-is-german-identity/index.html" rel="bookmark">July 28, 2014</a></span>
-					<span class="loop-comments"><i class="fa fa-comment-o"></i>0</span>
-				</div>
-						<h3 class="loop-title"><a href="../../2014/07/28/world-cup-fever-how-malleable-is-german-identity/index.html" rel="bookmark">World Cup Fever: How malleable is German identity?</a></h3>
-		</header>
-		<div class="mh-excerpt">Germany's World Cup victory has unleashed a new wave of patriotism, as well as a new identity crisis. This patriotism might only be as good as the boundaries it is ready and able to redefine. An act of flowing colors and neighbor-to-neighbor high-fives may have started a new understanding of who is allowed into the club, but policies and institutions need to take it one step further. Otherwise, patriotism is just as good as nationalism, which rules by way of exceptionalism. In the type of inclusive global society many of us would love to build, there is no room for exceptionalism... <a href="../../2014/07/28/world-cup-fever-how-malleable-is-german-identity/index.html" title="World Cup Fever: How malleable is German identity?">[Read More!]</a></div>
-	</div>
-</article><article class="post-2390 post type-post status-publish format-standard has-post-thumbnail hentry category-identity-and-belonging category-policy-practice category-politics-and-media tag-football tag-germany tag-integration tag-policy tag-racism">
-	<div class="loop-wrap clearfix">
-		<div class="loop-thumb">
-			<a href="../../2014/04/11/integration-in-berlin-research-for-a-desolate-landscape/index.html">
-				<img width="310" height="174" src="../../wp-content/uploads/2014/04/bim-7-310x174.jpg" class="attachment-featured size-featured wp-post-image" alt="" loading="lazy" />			</a>
-		</div>
-		<header class="loop-data">
-							<div class="loop-meta">
-					<span class="loop-date"><a href="../../2014/04/11/integration-in-berlin-research-for-a-desolate-landscape/index.html" rel="bookmark">April 11, 2014</a></span>
-					<span class="loop-comments"><i class="fa fa-comment-o"></i>4</span>
-				</div>
-						<h3 class="loop-title"><a href="../../2014/04/11/integration-in-berlin-research-for-a-desolate-landscape/index.html" rel="bookmark">Integration in Berlin: Research for a Desolate Landscape</a></h3>
-		</header>
-		<div class="mh-excerpt">On April 2, the new <a href="http://www.bim.hu-berlin.de/">Berlin Institute for Empirical Research on Integration and Migration</a> (BIM) was launched. Certainly not the first institute of its kind in Germany, Berlin's Humboldt University, the Hertie Foundation, the Federal Employment Agency, and the German Football Association held a press conference to frame this initiative as new and needed. The reason: the field  - what is really known about the integration or inclusion of diversity - is more desert than rain-forest in this country of immigration... <a href="../../2014/04/11/integration-in-berlin-research-for-a-desolate-landscape/index.html" title="Integration in Berlin: Research for a Desolate Landscape">[Read More!]</a></div>
-	</div>
-</article><article class="post-2314 post type-post status-publish format-standard has-post-thumbnail hentry category-history category-identity-and-belonging category-language category-local-stories category-politics-and-media tag-asylum tag-guestworkers tag-integration tag-kurdistan tag-neukolln tag-refugees tag-turkey">
-	<div class="loop-wrap clearfix">
-		<div class="loop-thumb">
-			<a href="../../2014/03/30/interview-the-taxi-driver/index.html">
-				<img width="310" height="174" src="../../wp-content/uploads/2014/03/2014-03-30-09-50-36-1-310x174.jpg" class="attachment-featured size-featured wp-post-image" alt="Orhan and Sophia pre 2014 Berlin half marathon" loading="lazy" />			</a>
-		</div>
-		<header class="loop-data">
-							<div class="loop-meta">
-					<span class="loop-date"><a href="../../2014/03/30/interview-the-taxi-driver/index.html" rel="bookmark">March 30, 2014</a></span>
-					<span class="loop-comments"><i class="fa fa-comment-o"></i>1</span>
-				</div>
-						<h3 class="loop-title"><a href="../../2014/03/30/interview-the-taxi-driver/index.html" rel="bookmark">Interview: The Taxi Driver</a></h3>
-		</header>
-		<div class="mh-excerpt">Orhan was 5 when his father moved to Berlin in 1972. It was only one year before West Germany would halt guest worker recruitment from non-European countries to fill labor shortages after World War II. His mother followed 7 years later with his youngest sister and they lived in Rudow in southeastern Neukölln - where they still live over 30 years later. "They got jobs as cleaners in an office," Orhan recounts, "but they were fired!" he adds, snorting in laughter.  I look up from my notepad, surprised... <a href="../../2014/03/30/interview-the-taxi-driver/index.html" title="Interview: The Taxi Driver">[Read More!]</a></div>
-	</div>
-</article><article class="post-2212 post type-post status-publish format-standard has-post-thumbnail hentry category-identity-and-belonging category-local-stories category-religion category-arts-and-creativity tag-ex-pat tag-integration tag-kreuzberg tag-multiculturalism tag-theater">
-	<div class="loop-wrap clearfix">
-		<div class="loop-thumb">
-			<a href="../../2014/03/07/interview-three-dimensions-of-integration/index.html">
-				<img width="310" height="174" src="../../wp-content/uploads/2014/03/img_0609-e1413113009707-310x174.jpg" class="attachment-featured size-featured wp-post-image" alt="Admiralbruecke in Kreuzberg" loading="lazy" />			</a>
-		</div>
-		<header class="loop-data">
-							<div class="loop-meta">
-					<span class="loop-date"><a href="../../2014/03/07/interview-three-dimensions-of-integration/index.html" rel="bookmark">March 7, 2014</a></span>
-					<span class="loop-comments"><i class="fa fa-comment-o"></i>3</span>
-				</div>
-						<h3 class="loop-title"><a href="../../2014/03/07/interview-three-dimensions-of-integration/index.html" rel="bookmark">Interview: Three Dimensions of Integration</a></h3>
-		</header>
-		<div class="mh-excerpt">It's easy (and admittedly amusing) to reduce expats to stereotypes, as if we all neatly fall into one or the other category based on which country we hail from, what we do for a living, or where we party and eat brunch. Reality is always more nuanced and multi-dimensional. Dare we even say, interesting?... <a href="../../2014/03/07/interview-three-dimensions-of-integration/index.html" title="Interview: Three Dimensions of Integration">[Read More!]</a></div>
-	</div>
-</article><article class="post-1853 post type-post status-publish format-standard has-post-thumbnail hentry category-culinary-cultures category-history category-informed-tourism category-our-lens category-spaces-places tag-gentrification tag-guestworkers tag-integration tag-multiculturalism tag-turkey tag-wwii">
-	<div class="loop-wrap clearfix">
-		<div class="loop-thumb">
-			<a href="../../2014/02/20/lens-an-ode-to-the-maybachufer/index.html">
-				<img width="310" height="174" src="../../wp-content/uploads/2013/12/swans-310x174.jpg" class="attachment-featured size-featured wp-post-image" alt="" loading="lazy" />			</a>
-		</div>
-		<header class="loop-data">
-							<div class="loop-meta">
-					<span class="loop-date"><a href="../../2014/02/20/lens-an-ode-to-the-maybachufer/index.html" rel="bookmark">February 20, 2014</a></span>
-					<span class="loop-comments"><i class="fa fa-comment-o"></i>2</span>
-				</div>
-						<h3 class="loop-title"><a href="../../2014/02/20/lens-an-ode-to-the-maybachufer/index.html" rel="bookmark">Lens: An Ode to the Maybachufer</a></h3>
-		</header>
-		<div class="mh-excerpt">From Berlin's "problem district" to more expensive than spießig Charlottenburg: Kreuzberg's made quite the transformation over the decades, but migration continues to shape its identity and reputation as a district. The bulk of Kreuzberg's diversity stems from the '50s and '60s, when guest workers were recruited by West Germany to fill labor shortages after World War II*. Kreuzberg's dilapidated housing became home to guest workers, primarily from Turkey... <a href="../../2014/02/20/lens-an-ode-to-the-maybachufer/index.html" title="Lens: An Ode to the Maybachufer">[Read More!]</a></div>
-	</div>
-</article><article class="post-1346 post type-post status-publish format-standard has-post-thumbnail hentry category-identity-and-belonging category-local-stories category-our-lens tag-charlottenburg tag-home tag-integration tag-iran tag-multikulti">
-	<div class="loop-wrap clearfix">
-		<div class="loop-thumb">
-			<a href="../../2013/11/30/interview-hamid-stardom-and-the-difference-threshold/index.html">
-				<img width="310" height="174" src="../../wp-content/uploads/2013/11/hamidandkader-310x174.jpg" class="attachment-featured size-featured wp-post-image" alt="" loading="lazy" />			</a>
-		</div>
-		<header class="loop-data">
-							<div class="loop-meta">
-					<span class="loop-date"><a href="../../2013/11/30/interview-hamid-stardom-and-the-difference-threshold/index.html" rel="bookmark">November 30, 2013</a></span>
-					<span class="loop-comments"><i class="fa fa-comment-o"></i>3</span>
-				</div>
-						<h3 class="loop-title"><a href="../../2013/11/30/interview-hamid-stardom-and-the-difference-threshold/index.html" rel="bookmark">Interview: Hamid, Stardom, and the Difference Threshold</a></h3>
-		</header>
-		<div class="mh-excerpt">It's November of last year and Kelly and I are visiting relatives of mine in Soest, a small town of under 50,000 in Northwestern Germany. We're hanging out in the kitchen, chatting over a cup of coffee, when one of my cousin's friends walks in. He pauses with one arm holding open the door, staring at us like a deer in headlights. Before we have the chance to say <em>Hallo</em> he's turned and raced up the stairs to my cousin's room. <em>Teenage boys</em>, we initially chuckled... <a href="../../2013/11/30/interview-hamid-stardom-and-the-difference-threshold/index.html" title="Interview: Hamid, Stardom, and the Difference Threshold">[Read More!]</a></div>
-	</div>
-</article><article class="post-1736 post type-post status-publish format-standard has-post-thumbnail hentry category-identity-and-belonging category-local-stories category-policy-practice category-politics-and-media tag-bureaucracy tag-discrimination tag-germany tag-immigration tag-integration tag-lichtenberg tag-racism tag-roma">
-	<div class="loop-wrap clearfix">
-		<div class="loop-thumb">
-			<a href="../../2013/11/20/roma-in-berlin-bureaucracy-in-lichtenberg/index.html">
-				<img width="310" height="174" src="../../wp-content/uploads/2013/11/roma-familie_dokumentationszentrum-e1413113559421-310x174.jpg" class="attachment-featured size-featured wp-post-image" alt="" loading="lazy" />			</a>
-		</div>
-		<header class="loop-data">
-							<div class="loop-meta">
-					<span class="loop-date"><a href="../../2013/11/20/roma-in-berlin-bureaucracy-in-lichtenberg/index.html" rel="bookmark">November 20, 2013</a></span>
-					<span class="loop-comments"><i class="fa fa-comment-o"></i>2</span>
-				</div>
-						<h3 class="loop-title"><a href="../../2013/11/20/roma-in-berlin-bureaucracy-in-lichtenberg/index.html" rel="bookmark">Roma in Berlin: Bureaucracy in Lichtenberg</a></h3>
-		</header>
-		<div class="mh-excerpt">On the first Tuesday of every month, the <em><a href="http://www.migrantenrat.de/">Migrantenrat Lichtenberg</a> </em>(immigrants' plenary) meets to address issues of migration affecting the district and its neighborhoods. The gospel of November's session: The Roma are coming! 2014 will be a year of change for Roma in Berlin, primarily for those who have come from Bulgaria and Romania. They will have access to the social welfare system, the situation will change dramatically. But this is about families, not simply numbers... <a href="../../2013/11/20/roma-in-berlin-bureaucracy-in-lichtenberg/index.html" title="Roma in Berlin: Bureaucracy in Lichtenberg">[Read More!]</a></div>
-	</div>
-</article><article class="post-1678 post type-post status-publish format-standard has-post-thumbnail hentry category-education-2 category-identity-and-belonging category-local-stories category-our-lens tag-diversity tag-germany tag-immigration tag-integration tag-multiculturalism tag-transnationalism">
-	<div class="loop-wrap clearfix">
-		<div class="loop-thumb">
-			<a href="../../2013/11/11/lens-with-wings-roots-and-sweaty-hands/index.html">
-				<img width="310" height="174" src="../../wp-content/uploads/2013/11/withwingsandroots_reimaginebelonging_website_small-310x174.png" class="attachment-featured size-featured wp-post-image" alt="" loading="lazy" />			</a>
-		</div>
-		<header class="loop-data">
-							<div class="loop-meta">
-					<span class="loop-date"><a href="../../2013/11/11/lens-with-wings-roots-and-sweaty-hands/index.html" rel="bookmark">November 11, 2013</a></span>
-					<span class="loop-comments"><i class="fa fa-comment-o"></i>1</span>
-				</div>
-						<h3 class="loop-title"><a href="../../2013/11/11/lens-with-wings-roots-and-sweaty-hands/index.html" rel="bookmark">Lens: With Wings, Roots, and Sweaty Hands</a></h3>
-		</header>
-		<div class="mh-excerpt">"Punctual. Exact. Productive. Closed off. Careful. Inflexible. Humorless." And some "Goethe" and "Einstein" thrown in for good measure. Was this really all a group of seemingly well-educated professionals had to say about German identity? No wonder the facilitator had started to draw sad faces on the list... <a href="../../2013/11/11/lens-with-wings-roots-and-sweaty-hands/index.html" title="Lens: With Wings, Roots, and Sweaty Hands">[Read More!]</a></div>
-	</div>
-</article><span aria-current="page" class="page-numbers current">1</span>
-<a class="page-numbers" href="page/2/index.html">2</a>
-<a class="page-numbers" href="page/3/index.html">3</a>
-<a class="next page-numbers" href="page/2/index.html">&raquo;</a>	</section>
-	<aside class="sidebar sb-right">
-  <div class="sb-widget"><h4 class="widget-title"><a href="../../category/spaces-places/index.html">Spaces &#038; Places</a></h4>			<div class="textwidget"><p>A look at pockets of opportunity within the city that highlight democracy, inclusiveness, and diversity, in Berlin and beyond.</p>
-</div>
-		</div><div class="sb-widget"><h4 class="widget-title"><a href="../../category/local-stories/index.html">Local Stories</a></h4>			<div class="textwidget"><p>Individual stories, experiences, and interviews with the many diverse peoples that constitute and help create the modern city.</p>
-</div>
-		</div><div class="sb-widget"><h4 class="widget-title"><a href="../../category/policy-practice/index.html">Policy &#038; Practice</a></h4>			<div class="textwidget"><p>Our reviews, rants, and raves on initiatives and organizations involved in immigrant integration and diversity issues.</p>
-</div>
-		</div><div class="sb-widget"><h4 class="widget-title"><a href="../../category/our-lens/index.html">Our Lens</a></h4>			<div class="textwidget"><p>Where we get personal: our own experiences as migrants and transnationals and how these inform our understanding of multiculturalism, inclusion, and the city.</p>
-</div>
-		</div><div class="sb-widget"><h4 class="widget-title">What does &#8220;Collidoscope&#8221; mean? </h4>			<div class="textwidget">The term Collidoscope comes from our combination of the words “collide” and “kaleidoscope”, evoking the idea of a positive and colorful collision of perspectives, communities, and peoples through (im)migration.</div>
-		</div><div class="sb-widget"><h4 class="widget-title"><a href="../../about/a-manifesto/index.html">Our Manifesto</a></h4><a href="../../about/a-manifesto/index.html"><img class="image alignnone" src="../../wp-content/uploads/2014/05/img_0388.jpg" alt="" width="1020" height="680" /></a></div><div class="sb-widget"><h4 class="widget-title"><a href="../../tips-and-resources/index.html">Tips &#038; Resources</a></h4><a href="../../tips-and-resources/index.html"><img width="650" height="650" src="../../wp-content/uploads/2013/08/2migrantas_piktogramm_wir_sind_das_wir_300dpi-e1413113760723.jpg" class="image wp-image-1337 alignnone attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="../../wp-content/uploads/2013/08/2migrantas_piktogramm_wir_sind_das_wir_300dpi-e1413113760723.jpg 650w, ../../wp-content/uploads/2013/08/2migrantas_piktogramm_wir_sind_das_wir_300dpi-e1413113760723-300x300.jpg 300w" sizes="(max-width: 650px) 100vw, 650px" /></a></div><div class="sb-widget"><h4 class="widget-title"><a href="../../about/index.html">About the authors</a></h4><a href="../../about/index.html"><img class="image alignnone" src="../../wp-content/uploads/2013/03/IMG_6372.jpg" alt="" width="1020" height="680" /></a></div>
-		<div class="sb-widget">
-		<h4 class="widget-title">Recent Articles </h4>
-		<ul>
-											<li>
-					<a href="../../2016/12/04/feminism-hijab-go-together/index.html">Why Feminism and Hijab Go Together</a>
-											<span class="post-date">December 4, 2016</span>
-									</li>
-											<li>
-					<a href="../../2016/08/25/the-value-of-foreign-life/index.html">The Value of Foreign Life: when the law demands &#8220;integration&#8221;</a>
-											<span class="post-date">August 25, 2016</span>
-									</li>
-											<li>
-					<a href="../../2016/05/31/the-frauenraum/index.html">Women Only: The Frauenraum</a>
-											<span class="post-date">May 31, 2016</span>
-									</li>
-											<li>
-					<a href="../../2016/02/29/migration-matters-a-free-video-lecture-series/index.html">Migration Matters: A Free Video Lecture Series</a>
-											<span class="post-date">February 29, 2016</span>
-									</li>
-											<li>
-					<a href="../../2016/02/08/not-our-women-from-cologne-to-berlin/index.html">&#8220;Not our Women&#8221; after Cologne</a>
-											<span class="post-date">February 8, 2016</span>
-									</li>
-											<li>
-					<a href="../../2015/12/18/lageso/index.html">Lens: Four Hours at Lageso</a>
-											<span class="post-date">December 18, 2015</span>
-									</li>
-											<li>
-					<a href="../../2015/09/28/moralpolitik-and-the-ressentiments-of-change/index.html">Moralpolitik and the Ressentiments of Change</a>
-											<span class="post-date">September 28, 2015</span>
-									</li>
-											<li>
-					<a href="../../2015/07/03/interview-im-a-human-being/index.html">Interview: &#8220;I&#8217;m a Human Being&#8221;</a>
-											<span class="post-date">July 3, 2015</span>
-									</li>
-					</ul>
+    <header class="header-wrap">
+        <a href="../../index.html" title="Collidoscope Berlin" rel="home">
+            <div class="logo-wrap" role="banner">
+                <img class="header-image" src="../../assets/images/uploads/2014/09/cropped-cropped-Collidoscope_Logo_RZ_RGB112-e1413112267396.png" height="175" width="781" alt="Collidoscope Berlin"/>
+            </div>
+        </a>
+        <nav class="main-nav clearfix">
+            <div class="menu-primary-menu-container">
+                <ul id="menu-primary-menu" class="menu">
+                    <li id="menu-item-3200" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3200">
+                        <a href="../../index.html">Home</a></li>
+                    <li id="menu-item-3106" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3106">
+                        <a href="../../about/index.html">About</a>
+                        <ul class="sub-menu">
+                            <li id="menu-item-3107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3107">
+                                <a href="../../about/a-manifesto/index.html">Manifesto</a></li>
+                        </ul>
+                    </li>
+                    <li id="menu-item-3109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3109">
+                        <a href="../../tips-and-resources/index.html">Tips &#038; Resources</a>
+                        <ul class="sub-menu">
+                            <li id="menu-item-3110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3110">
+                                <a href="../../tips-and-resources/goodreads/index.html">What We&#8217;re Reading</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="menu-item-3111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3111">
+                        <a href="../../as-seen-on/index.html">As Seen On</a></li>
+                    <li id="menu-item-3112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3112">
+                        <a href="../../contact-us/index.html">Contact</a>
+                        <ul class="sub-menu">
+                            <li id="menu-item-3108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3108">
+                                <a href="../../contact-us/imprint/index.html">Imprint</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="wrapper clearfix">
+        <section class="content left">
+            <header class="post-header">
+                <h1 class="entry-title">integration</h1>
+            </header>
+            <article class="post-4676 post type-post status-publish format-standard has-post-thumbnail hentry category-identity-and-belonging category-language category-policy-practice category-politics-and-media tag-asylum tag-bundestag tag-germany tag-inclusion tag-integration tag-language-learning">
+                <div class="loop-wrap clearfix">
+                    <div class="loop-thumb">
+                        <a href="../../2016/08/25/the-value-of-foreign-life/index.html">
+                            <img width="310" height="174" src="../../assets/images/uploads/2016/08/fluechtlinge-integration-gesetz-fakten-streitpunkte-310x174.jpeg" class="attachment-featured size-featured wp-post-image" alt="" loading="lazy" srcset="../../assets/images/uploads/2016/08/fluechtlinge-integration-gesetz-fakten-streitpunkte-310x174.jpeg 310../../assets/images/uploadsads/2016/08/fluechtlinge-integration-gesetz-fakten-streitpunkte-300x169.jpeg ../../assets/images/uploadsploads/2016/08/fluechtlinge-integration-gesetz-fakten-streitpunkte.jp../../assets/images/uploadst/uploads/2016/08/fluechtlinge-integration-gesetz-fakten-streitpunkte-650x365.jpeg 650w" sizes="(max-width: 310px) 100vw, 310px"/>
+                        </a>
+                    </div>
+                    <header class="loop-data">
+                        <div class="loop-meta">
+                            <span class="loop-date"><a href="../../2016/08/25/the-value-of-foreign-life/index.html" rel="bookmark">August 25, 2016</a></span>
+                            <span class="loop-comments"><i class="fa fa-comment-o"></i>0</span>
+                        </div>
+                        <h3 class="loop-title">
+                            <a href="../../2016/08/25/the-value-of-foreign-life/index.html" rel="bookmark">The Value of
+                                Foreign Life: when the law demands &#8220;integration&#8221;</a></h3>
+                    </header>
+                    <div class="mh-excerpt">Until now, immigration policy in Germany has followed a pathway defined by
+                        residency, employment, and
+                        <a href="../../2016/08/25/the-value-of-foreign-life/index.html" title="The Value of Foreign Life: when the law demands &#8220;integration&#8221;">[Read
+                            More!]</a></div>
+                </div>
+            </article>
+            <article class="post-3183 post type-post status-publish format-standard has-post-thumbnail hentry category-identity-and-belonging category-local-stories category-politics-and-media category-arts-and-creativity tag-football tag-germany tag-guestworkers tag-home tag-integration tag-neukolln tag-turkey">
+                <div class="loop-wrap clearfix">
+                    <div class="loop-thumb">
+                        <a href="../../2014/09/02/interview-ali-for-and-from-germany/index.html">
+                            <img width="310" height="174" src="../../assets/images/uploads/2014/09/ali-310x174.jpg" class="attachment-featured size-featured wp-post-image" alt="Ali für Deutschland" loading="lazy"/>
+                        </a>
+                    </div>
+                    <header class="loop-data">
+                        <div class="loop-meta">
+                            <span class="loop-date"><a href="../../2014/09/02/interview-ali-for-and-from-germany/index.html" rel="bookmark">September 2, 2014</a></span>
+                            <span class="loop-comments"><i class="fa fa-comment-o"></i>0</span>
+                        </div>
+                        <h3 class="loop-title">
+                            <a href="../../2014/09/02/interview-ali-for-and-from-germany/index.html" rel="bookmark">Interview:
+                                Ali for (and from) Germany</a></h3>
+                    </header>
+                    <div class="mh-excerpt">In the wake of Germany's World Cup victory, much has been said about a
+                        renewed sense of German patriotism and its implications. While some have feared a connection to
+                        Germany's dark past, others have welcomed the discourse as a chance to shape a new sense of
+                        belonging within the country's evolving demographics. We've already written something about it
+                        here. But what a discussion on national identity means on the personal level is another story.
+                        Or rather many stories. Here's one...
+                        <a href="../../2014/09/02/interview-ali-for-and-from-germany/index.html" title="Interview: Ali for (and from) Germany">[Read
+                            More!]</a></div>
+                </div>
+            </article>
+            <article class="post-2873 post type-post status-publish format-image has-post-thumbnail hentry category-history category-identity-and-belonging category-policy-practice category-politics-and-media tag-football tag-germany tag-inclusion tag-integration tag-nationalism tag-world-cup post_format-post-format-image">
+                <div class="loop-wrap clearfix">
+                    <div class="loop-thumb">
+                        <a href="../../2014/07/28/world-cup-fever-how-malleable-is-german-identity/index.html">
+                            <img width="310" height="174" src="../../assets/images/uploads/2014/07/die-deutschland-party-310x174.jpg" class="attachment-featured size-featured wp-post-image" alt="" loading="lazy"/>
+                        </a>
+                    </div>
+                    <header class="loop-data">
+                        <div class="loop-meta">
+                            <span class="loop-date"><a href="../../2014/07/28/world-cup-fever-how-malleable-is-german-identity/index.html" rel="bookmark">July 28, 2014</a></span>
+                            <span class="loop-comments"><i class="fa fa-comment-o"></i>0</span>
+                        </div>
+                        <h3 class="loop-title">
+                            <a href="../../2014/07/28/world-cup-fever-how-malleable-is-german-identity/index.html" rel="bookmark">World
+                                Cup Fever: How malleable is German identity?</a></h3>
+                    </header>
+                    <div class="mh-excerpt">Germany's World Cup victory has unleashed a new wave of patriotism, as well
+                        as a new identity crisis. This patriotism might only be as good as the boundaries it is ready
+                        and able to redefine. An act of flowing colors and neighbor-to-neighbor high-fives may have
+                        started a new understanding of who is allowed into the club, but policies and institutions need
+                        to take it one step further. Otherwise, patriotism is just as good as nationalism, which rules
+                        by way of exceptionalism. In the type of inclusive global society many of us would love to
+                        build, there is no room for exceptionalism...
+                        <a href="../../2014/07/28/world-cup-fever-how-malleable-is-german-identity/index.html" title="World Cup Fever: How malleable is German identity?">[Read
+                            More!]</a></div>
+                </div>
+            </article>
+            <article class="post-2390 post type-post status-publish format-standard has-post-thumbnail hentry category-identity-and-belonging category-policy-practice category-politics-and-media tag-football tag-germany tag-integration tag-policy tag-racism">
+                <div class="loop-wrap clearfix">
+                    <div class="loop-thumb">
+                        <a href="../../2014/04/11/integration-in-berlin-research-for-a-desolate-landscape/index.html">
+                            <img width="310" height="174" src="../../assets/images/uploads/2014/04/bim-7-310x174.jpg" class="attachment-featured size-featured wp-post-image" alt="" loading="lazy"/>
+                        </a>
+                    </div>
+                    <header class="loop-data">
+                        <div class="loop-meta">
+                            <span class="loop-date"><a href="../../2014/04/11/integration-in-berlin-research-for-a-desolate-landscape/index.html" rel="bookmark">April 11, 2014</a></span>
+                            <span class="loop-comments"><i class="fa fa-comment-o"></i>4</span>
+                        </div>
+                        <h3 class="loop-title">
+                            <a href="../../2014/04/11/integration-in-berlin-research-for-a-desolate-landscape/index.html" rel="bookmark">Integration
+                                in Berlin: Research for a Desolate Landscape</a></h3>
+                    </header>
+                    <div class="mh-excerpt">On April 2, the new <a href="http://www.bim.hu-berlin.de/">Berlin Institute
+                        for Empirical Research on Integration and Migration</a> (BIM) was launched. Certainly not the
+                        first institute of its kind in Germany, Berlin's Humboldt University, the Hertie Foundation, the
+                        Federal Employment Agency, and the German Football Association held a press conference to
+                        frame this initiative as new and needed. The reason: the field  - what is really known about the
+                        integration or inclusion of diversity - is more desert than rain-forest in this country of
+                        immigration...
+                        <a href="../../2014/04/11/integration-in-berlin-research-for-a-desolate-landscape/index.html" title="Integration in Berlin: Research for a Desolate Landscape">[Read
+                            More!]</a></div>
+                </div>
+            </article>
+            <article class="post-2314 post type-post status-publish format-standard has-post-thumbnail hentry category-history category-identity-and-belonging category-language category-local-stories category-politics-and-media tag-asylum tag-guestworkers tag-integration tag-kurdistan tag-neukolln tag-refugees tag-turkey">
+                <div class="loop-wrap clearfix">
+                    <div class="loop-thumb">
+                        <a href="../../2014/03/30/interview-the-taxi-driver/index.html">
+                            <img width="310" height="174" src="../../assets/images/uploads/2014/03/2014-03-30-09-50-36-1-310x174.jpg" class="attachment-featured size-featured wp-post-image" alt="Orhan and Sophia pre 2014 Berlin half marathon" loading="lazy"/>
+                        </a>
+                    </div>
+                    <header class="loop-data">
+                        <div class="loop-meta">
+                            <span class="loop-date"><a href="../../2014/03/30/interview-the-taxi-driver/index.html" rel="bookmark">March 30, 2014</a></span>
+                            <span class="loop-comments"><i class="fa fa-comment-o"></i>1</span>
+                        </div>
+                        <h3 class="loop-title">
+                            <a href="../../2014/03/30/interview-the-taxi-driver/index.html" rel="bookmark">Interview:
+                                The Taxi Driver</a></h3>
+                    </header>
+                    <div class="mh-excerpt">Orhan was 5 when his father moved to Berlin in 1972. It was only one year
+                        before West Germany would halt guest worker recruitment from non-European countries to fill
+                        labor shortages after World War II. His mother followed 7 years later with his youngest sister
+                        and they lived in Rudow in southeastern Neukölln - where they still live over 30 years later.
+                        "They got jobs as cleaners in an office," Orhan recounts, "but they were fired!" he adds,
+                        snorting in laughter. I look up from my notepad, surprised...
+                        <a href="../../2014/03/30/interview-the-taxi-driver/index.html" title="Interview: The Taxi Driver">[Read
+                            More!]</a></div>
+                </div>
+            </article>
+            <article class="post-2212 post type-post status-publish format-standard has-post-thumbnail hentry category-identity-and-belonging category-local-stories category-religion category-arts-and-creativity tag-ex-pat tag-integration tag-kreuzberg tag-multiculturalism tag-theater">
+                <div class="loop-wrap clearfix">
+                    <div class="loop-thumb">
+                        <a href="../../2014/03/07/interview-three-dimensions-of-integration/index.html">
+                            <img width="310" height="174" src="../../assets/images/uploads/2014/03/img_0609-e1413113009707-310x174.jpg" class="attachment-featured size-featured wp-post-image" alt="Admiralbruecke in Kreuzberg" loading="lazy"/>
+                        </a>
+                    </div>
+                    <header class="loop-data">
+                        <div class="loop-meta">
+                            <span class="loop-date"><a href="../../2014/03/07/interview-three-dimensions-of-integration/index.html" rel="bookmark">March 7, 2014</a></span>
+                            <span class="loop-comments"><i class="fa fa-comment-o"></i>3</span>
+                        </div>
+                        <h3 class="loop-title">
+                            <a href="../../2014/03/07/interview-three-dimensions-of-integration/index.html" rel="bookmark">Interview:
+                                Three Dimensions of Integration</a></h3>
+                    </header>
+                    <div class="mh-excerpt">It's easy (and admittedly amusing) to reduce expats to stereotypes, as if we
+                        all neatly fall into one or the other category based on which country we hail from, what we do
+                        for a living, or where we party and eat brunch. Reality is always more nuanced and
+                        multi-dimensional. Dare we even say, interesting?...
+                        <a href="../../2014/03/07/interview-three-dimensions-of-integration/index.html" title="Interview: Three Dimensions of Integration">[Read
+                            More!]</a></div>
+                </div>
+            </article>
+            <article class="post-1853 post type-post status-publish format-standard has-post-thumbnail hentry category-culinary-cultures category-history category-informed-tourism category-our-lens category-spaces-places tag-gentrification tag-guestworkers tag-integration tag-multiculturalism tag-turkey tag-wwii">
+                <div class="loop-wrap clearfix">
+                    <div class="loop-thumb">
+                        <a href="../../2014/02/20/lens-an-ode-to-the-maybachufer/index.html">
+                            <img width="310" height="174" src="../../assets/images/uploads/2013/12/swans-310x174.jpg" class="attachment-featured size-featured wp-post-image" alt="" loading="lazy"/>
+                        </a>
+                    </div>
+                    <header class="loop-data">
+                        <div class="loop-meta">
+                            <span class="loop-date"><a href="../../2014/02/20/lens-an-ode-to-the-maybachufer/index.html" rel="bookmark">February 20, 2014</a></span>
+                            <span class="loop-comments"><i class="fa fa-comment-o"></i>2</span>
+                        </div>
+                        <h3 class="loop-title">
+                            <a href="../../2014/02/20/lens-an-ode-to-the-maybachufer/index.html" rel="bookmark">Lens: An
+                                Ode to the Maybachufer</a></h3>
+                    </header>
+                    <div class="mh-excerpt">From Berlin's "problem district" to more expensive than spießig
+                        Charlottenburg: Kreuzberg's made quite the transformation over the decades, but migration
+                        continues to shape its identity and reputation as a district. The bulk of Kreuzberg's diversity
+                        stems from the '50s and '60s, when guest workers were recruited by West Germany to fill labor
+                        shortages after World War II*. Kreuzberg's dilapidated housing became home to guest workers,
+                        primarily from Turkey...
+                        <a href="../../2014/02/20/lens-an-ode-to-the-maybachufer/index.html" title="Lens: An Ode to the Maybachufer">[Read
+                            More!]</a></div>
+                </div>
+            </article>
+            <article class="post-1346 post type-post status-publish format-standard has-post-thumbnail hentry category-identity-and-belonging category-local-stories category-our-lens tag-charlottenburg tag-home tag-integration tag-iran tag-multikulti">
+                <div class="loop-wrap clearfix">
+                    <div class="loop-thumb">
+                        <a href="../../2013/11/30/interview-hamid-stardom-and-the-difference-threshold/index.html">
+                            <img width="310" height="174" src="../../assets/images/uploads/2013/11/hamidandkader-310x174.jpg" class="attachment-featured size-featured wp-post-image" alt="" loading="lazy"/>
+                        </a>
+                    </div>
+                    <header class="loop-data">
+                        <div class="loop-meta">
+                            <span class="loop-date"><a href="../../2013/11/30/interview-hamid-stardom-and-the-difference-threshold/index.html" rel="bookmark">November 30, 2013</a></span>
+                            <span class="loop-comments"><i class="fa fa-comment-o"></i>3</span>
+                        </div>
+                        <h3 class="loop-title">
+                            <a href="../../2013/11/30/interview-hamid-stardom-and-the-difference-threshold/index.html" rel="bookmark">Interview:
+                                Hamid, Stardom, and the Difference Threshold</a></h3>
+                    </header>
+                    <div class="mh-excerpt">It's November of last year and Kelly and I are visiting relatives of mine in
+                        Soest, a small town of under 50,000 in Northwestern Germany. We're hanging out in the kitchen,
+                        chatting over a cup of coffee, when one of my cousin's friends walks in. He pauses with one arm
+                        holding open the door, staring at us like a deer in headlights. Before we have the chance to say
+                        <em>Hallo</em> he's turned and raced up the stairs to my cousin's room. <em>Teenage boys</em>,
+                        we initially chuckled...
+                        <a href="../../2013/11/30/interview-hamid-stardom-and-the-difference-threshold/index.html" title="Interview: Hamid, Stardom, and the Difference Threshold">[Read
+                            More!]</a></div>
+                </div>
+            </article>
+            <article class="post-1736 post type-post status-publish format-standard has-post-thumbnail hentry category-identity-and-belonging category-local-stories category-policy-practice category-politics-and-media tag-bureaucracy tag-discrimination tag-germany tag-immigration tag-integration tag-lichtenberg tag-racism tag-roma">
+                <div class="loop-wrap clearfix">
+                    <div class="loop-thumb">
+                        <a href="../../2013/11/20/roma-in-berlin-bureaucracy-in-lichtenberg/index.html">
+                            <img width="310" height="174" src="../../assets/images/uploads/2013/11/roma-familie_dokumentationszentrum-e1413113559421-310x174.jpg" class="attachment-featured size-featured wp-post-image" alt="" loading="lazy"/>
+                        </a>
+                    </div>
+                    <header class="loop-data">
+                        <div class="loop-meta">
+                            <span class="loop-date"><a href="../../2013/11/20/roma-in-berlin-bureaucracy-in-lichtenberg/index.html" rel="bookmark">November 20, 2013</a></span>
+                            <span class="loop-comments"><i class="fa fa-comment-o"></i>2</span>
+                        </div>
+                        <h3 class="loop-title">
+                            <a href="../../2013/11/20/roma-in-berlin-bureaucracy-in-lichtenberg/index.html" rel="bookmark">Roma
+                                in Berlin: Bureaucracy in Lichtenberg</a></h3>
+                    </header>
+                    <div class="mh-excerpt">On the first Tuesday of every month, the
+                        <em><a href="http://www.migrantenrat.de/">Migrantenrat Lichtenberg</a> </em>(immigrants'
+                        plenary) meets to address issues of migration affecting the district and its neighborhoods. The
+                        gospel of November's session: The Roma are coming! 2014 will be a year of change for Roma in
+                        Berlin, primarily for those who have come from Bulgaria and Romania. They will have access to
+                        the social welfare system, the situation will change dramatically. But this is about families,
+                        not simply numbers...
+                        <a href="../../2013/11/20/roma-in-berlin-bureaucracy-in-lichtenberg/index.html" title="Roma in Berlin: Bureaucracy in Lichtenberg">[Read
+                            More!]</a></div>
+                </div>
+            </article>
+            <article class="post-1678 post type-post status-publish format-standard has-post-thumbnail hentry category-education-2 category-identity-and-belonging category-local-stories category-our-lens tag-diversity tag-germany tag-immigration tag-integration tag-multiculturalism tag-transnationalism">
+                <div class="loop-wrap clearfix">
+                    <div class="loop-thumb">
+                        <a href="../../2013/11/11/lens-with-wings-roots-and-sweaty-hands/index.html">
+                            <img width="310" height="174" src="../../assets/images/uploads/2013/11/withwingsandroots_reimaginebelonging_website_small-310x174.png" class="attachment-featured size-featured wp-post-image" alt="" loading="lazy"/>
+                        </a>
+                    </div>
+                    <header class="loop-data">
+                        <div class="loop-meta">
+                            <span class="loop-date"><a href="../../2013/11/11/lens-with-wings-roots-and-sweaty-hands/index.html" rel="bookmark">November 11, 2013</a></span>
+                            <span class="loop-comments"><i class="fa fa-comment-o"></i>1</span>
+                        </div>
+                        <h3 class="loop-title">
+                            <a href="../../2013/11/11/lens-with-wings-roots-and-sweaty-hands/index.html" rel="bookmark">Lens:
+                                With Wings, Roots, and Sweaty Hands</a></h3>
+                    </header>
+                    <div class="mh-excerpt">"Punctual. Exact. Productive. Closed off. Careful. Inflexible. Humorless."
+                        And some "Goethe" and "Einstein" thrown in for good measure. Was this really all a group of
+                        seemingly well-educated professionals had to say about German identity? No wonder the
+                        facilitator had started to draw sad faces on the list...
+                        <a href="../../2013/11/11/lens-with-wings-roots-and-sweaty-hands/index.html" title="Lens: With Wings, Roots, and Sweaty Hands">[Read
+                            More!]</a></div>
+                </div>
+            </article>
+            <span aria-current="page" class="page-numbers current">1</span>
+            <a class="page-numbers" href="page/2/index.html">2</a>
+            <a class="page-numbers" href="page/3/index.html">3</a>
+            <a class="next page-numbers" href="page/2/index.html">&raquo;</a></section>
+        <aside class="sidebar sb-right">
+            <div class="sb-widget"><h4 class="widget-title"><a href="../../category/spaces-places/index.html">Spaces
+                &#038; Places</a></h4>
+                <div class="textwidget"><p>A look at pockets of opportunity within the city that highlight democracy,
+                    inclusiveness, and diversity, in Berlin and beyond.</p>
+                </div>
+            </div>
+            <div class="sb-widget"><h4 class="widget-title"><a href="../../category/local-stories/index.html">Local
+                Stories</a></h4>
+                <div class="textwidget"><p>Individual stories, experiences, and interviews with the many diverse peoples
+                    that constitute and help create the modern city.</p>
+                </div>
+            </div>
+            <div class="sb-widget"><h4 class="widget-title"><a href="../../category/policy-practice/index.html">Policy
+                &#038; Practice</a></h4>
+                <div class="textwidget"><p>Our reviews, rants, and raves on initiatives and organizations involved in
+                    immigrant integration and diversity issues.</p>
+                </div>
+            </div>
+            <div class="sb-widget"><h4 class="widget-title"><a href="../../category/our-lens/index.html">Our Lens</a>
+            </h4>
+                <div class="textwidget"><p>Where we get personal: our own experiences as migrants and transnationals and
+                    how these inform our understanding of multiculturalism, inclusion, and the city.</p>
+                </div>
+            </div>
+            <div class="sb-widget"><h4 class="widget-title">What does &#8220;Collidoscope&#8221; mean? </h4>
+                <div class="textwidget">The term Collidoscope comes from our combination of the words “collide” and
+                    “kaleidoscope”, evoking the idea of a positive and colorful collision of perspectives, communities,
+                    and peoples through (im)migration.
+                </div>
+            </div>
+            <div class="sb-widget"><h4 class="widget-title"><a href="../../about/a-manifesto/index.html">Our
+                Manifesto</a></h4>
+                <a href="../../about/a-manifesto/index.html"><img class="image alignnone" src="../../assets/images/uploads/2014/05/img_0388.jpg" alt="" width="1020" height="680"/></a>
+            </div>
+            <div class="sb-widget"><h4 class="widget-title"><a href="../../tips-and-resources/index.html">Tips &#038;
+                Resources</a></h4>
+                <a href="../../tips-and-resources/index.html"><img width="650" height="650" src="../../assets/images/uploads/2013/08/2migrantas_piktogramm_wir_sind_das_wir_300dpi-e1413113760723.jpg" class="image wp-image-1337 alignnone attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="../../assets/images/uploads/2013/08/2migrantas_piktogramm_wir_sind_das_wir_300dpi-e1413113760723.jpg 650../../assets/images/uploadsads/2013/08/2migrantas_piktogramm_wir_sind_das_wir_300dpi-e1413113760723-300x300.jpg 300w" sizes="(max-width: 650px) 100vw, 650px"/></a>
+            </div>
+            <div class="sb-widget"><h4 class="widget-title"><a href="../../about/index.html">About the authors</a></h4>
+                <a href="../../about/index.html"><img class="image alignnone" src="../../assets/images/uploads/2013/03/IMG_6372.jpg" alt="" width="1020" height="680"/></a>
+            </div>
+            <div class="sb-widget">
+                <h4 class="widget-title">Recent Articles </h4>
+                <ul>
+                    <li>
+                        <a href="../../2016/12/04/feminism-hijab-go-together/index.html">Why Feminism and Hijab Go
+                            Together</a>
+                        <span class="post-date">December 4, 2016</span>
+                    </li>
+                    <li>
+                        <a href="../../2016/08/25/the-value-of-foreign-life/index.html">The Value of Foreign Life: when
+                            the law demands &#8220;integration&#8221;</a>
+                        <span class="post-date">August 25, 2016</span>
+                    </li>
+                    <li>
+                        <a href="../../2016/05/31/the-frauenraum/index.html">Women Only: The Frauenraum</a>
+                        <span class="post-date">May 31, 2016</span>
+                    </li>
+                    <li>
+                        <a href="../../2016/02/29/migration-matters-a-free-video-lecture-series/index.html">Migration
+                            Matters: A Free Video Lecture Series</a>
+                        <span class="post-date">February 29, 2016</span>
+                    </li>
+                    <li>
+                        <a href="../../2016/02/08/not-our-women-from-cologne-to-berlin/index.html">&#8220;Not our Women&#8221;
+                            after Cologne</a>
+                        <span class="post-date">February 8, 2016</span>
+                    </li>
+                    <li>
+                        <a href="../../2015/12/18/lageso/index.html">Lens: Four Hours at Lageso</a>
+                        <span class="post-date">December 18, 2015</span>
+                    </li>
+                    <li>
+                        <a href="../../2015/09/28/moralpolitik-and-the-ressentiments-of-change/index.html">Moralpolitik
+                            and the Ressentiments of Change</a>
+                        <span class="post-date">September 28, 2015</span>
+                    </li>
+                    <li>
+                        <a href="../../2015/07/03/interview-im-a-human-being/index.html">Interview: &#8220;I&#8217;m a
+                            Human Being&#8221;</a>
+                        <span class="post-date">July 3, 2015</span>
+                    </li>
+                </ul>
 
-		</div><div class="sb-widget"><h4 class="widget-title">What we write about</h4><div class="menu-sidemenu-container"><ul id="menu-sidemenu" class="menu"><li id="menu-item-3216" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3216"><a href="../../category/arts-and-creativity/index.html">The Arts &#038; Creativity</a></li>
-<li id="menu-item-3219" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3219"><a href="../../category/culinary-cultures/index.html">Culinary Cultures</a></li>
-<li id="menu-item-3224" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3224"><a href="../../category/education-2/index.html">Education</a></li>
-<li id="menu-item-3225" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3225"><a href="../../category/history/index.html">History</a></li>
-<li id="menu-item-3226" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3226"><a href="../../category/informed-tourism/index.html">Informed Tourism</a></li>
-<li id="menu-item-3227" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3227"><a href="../../category/language/index.html">Language</a></li>
-<li id="menu-item-3228" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3228"><a href="../../category/local-stories/index.html">Local Stories</a></li>
-<li id="menu-item-3229" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3229"><a href="../../category/our-lens/index.html">Our Lens</a></li>
-<li id="menu-item-3230" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3230"><a href="../../category/policy-practice/index.html">Policy &#038; Practice</a></li>
-<li id="menu-item-3231" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3231"><a href="../../category/politics-and-media/index.html">Politics &#038; Media</a></li>
-<li id="menu-item-3232" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3232"><a href="../../category/identity-and-belonging/index.html">Identity &#038; Belonging</a></li>
-<li id="menu-item-3233" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3233"><a href="../../category/religion/index.html">Religion</a></li>
-<li id="menu-item-3234" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3234"><a href="../../category/spaces-places/index.html">Spaces &#038; Places</a></li>
-</ul></div></div></aside></div>
-<div class="copyright-wrap">
-  <p class="copyright">Copyright &copy; 2020 | Collidoscope Berlin</div>
+            </div>
+            <div class="sb-widget"><h4 class="widget-title">What we write about</h4>
+                <div class="menu-sidemenu-container">
+                    <ul id="menu-sidemenu" class="menu">
+                        <li id="menu-item-3216" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3216">
+                            <a href="../../category/arts-and-creativity/index.html">The Arts &#038; Creativity</a></li>
+                        <li id="menu-item-3219" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3219">
+                            <a href="../../category/culinary-cultures/index.html">Culinary Cultures</a></li>
+                        <li id="menu-item-3224" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3224">
+                            <a href="../../category/education/index.html">Education</a></li>
+                        <li id="menu-item-3225" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3225">
+                            <a href="../../category/history/index.html">History</a></li>
+                        <li id="menu-item-3226" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3226">
+                            <a href="../../category/informed-tourism/index.html">Informed Tourism</a></li>
+                        <li id="menu-item-3227" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3227">
+                            <a href="../../category/language/index.html">Language</a></li>
+                        <li id="menu-item-3228" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3228">
+                            <a href="../../category/local-stories/index.html">Local Stories</a></li>
+                        <li id="menu-item-3229" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3229">
+                            <a href="../../category/our-lens/index.html">Our Lens</a></li>
+                        <li id="menu-item-3230" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3230">
+                            <a href="../../category/policy-practice/index.html">Policy &#038; Practice</a></li>
+                        <li id="menu-item-3231" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3231">
+                            <a href="../../category/politics-and-media/index.html">Politics &#038; Media</a></li>
+                        <li id="menu-item-3232" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3232">
+                            <a href="../../category/identity-and-belonging/index.html">Identity &#038; Belonging</a>
+                        </li>
+                        <li id="menu-item-3233" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3233">
+                            <a href="../../category/religion/index.html">Religion</a></li>
+                        <li id="menu-item-3234" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3234">
+                            <a href="../../category/spaces-places/index.html">Spaces &#038; Places</a></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <div class="copyright-wrap">
+        <p class="copyright">Copyright &copy; 2020 | Collidoscope Berlin</div>
 </div>
-<script type='text/javascript' src='../../wp-includes/js/wp-embed.min%EF%B9%96ver=5.6.js' id='wp-embed-js'></script>
+<script type='text/javascript' src='../../assets/scripts/wp-embed.min.js' id='wp-embed-js'></script>
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-43042114-1', 'auto');
-  ga('send', 'pageview');
+    ga('create', 'UA-43042114-1', 'auto');
+    ga('send', 'pageview');
 
 </script>
 </body>
